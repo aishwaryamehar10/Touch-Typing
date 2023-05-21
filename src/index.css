@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 16px;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-size: 24px;
+}
+
+.typing-box {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.typing-box h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.typing-box p {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #666666;
+}
+
+.target-keys {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.key {
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin-right: 8px;
+  background-color: #f2f2f2;
+  color: #333333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.key:hover {
+  background-color: #e0e0e0;
+}
+
+.correct {
+  background-color: #b7e1cd;
+  color: #333333;
+}
+
+.incorrect {
+  background-color: #f8a5a5;
+  color: #ffffff;
+}
+
+.input {
+  font-size: 24px;
+  background-color: #ffffff;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  transition: box-shadow 0.3s ease;
+}
+
+.input:focus {
+  outline: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.clear-button {
+  font-size: 16px;
+  padding: 8px 16px;
+  background-color: #f2f2f2;
+  color: #333333;
+  border: none;
+  border-radius: 4px;
+  margin-top: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.clear-button:hover {
+  background-color: #e0e0e0;
+}
+
+
+.results {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.results p {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #666666;
+}
+
+.footer {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 16px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
