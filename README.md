@@ -2,8 +2,6 @@
 
 Touch Typing Practice is a web application designed to help you improve your typing skills. It provides a set of target keys that you need to type within a specified time limit. You can track your typing speed, accuracy, and progress while practicing.
 
-![Touch Typing Practice](screenshot.png)
-
 ## Features
 
 - Randomly generated target keys for typing practice
